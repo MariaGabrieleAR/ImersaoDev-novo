@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: url('https://img.freepik.com/vetores-gratis/quadro-verde-na-sala-de-aula-com-parede-branca-e-piso-de-madeira_107791-5343.jpg?w=826&t=st=1663118031~exp=1663118631~hmac=6c1675f0632f2b5159e1bc3bdc6028ae5d19cd59824e42b431519bbd845c989e');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  
+  
