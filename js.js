@@ -1,5 +1,5 @@
 var nome ="Gabi"
-var notaDoPrimeiroBimestre = document.querySelector("#nota1").value;
+var notaDoPrimeiroBimestre = document.querySelector("#nota1");
 var notaDoSegundoBimestre =document.querySelector("#nota2");
 var notaDoTerceiroBimestre =document.querySelector("#nota3");
 var notaDoQuartoBimestre = document.querySelector("#nota4");
@@ -9,7 +9,10 @@ botao.addEventListener("click",calcularMedia);
 
 function calcularMedia(e){
     e.preventDefault()
-    console.log(notaDoPrimeiroBimestre)
+   var nota1 = notaDoPrimeiroBimestre.value
+   var nota2 = notaDoSegundoBimestre.value
+   var nota3 = notaDoTerceiroBimestre.value
+   var nota4 = notaDoQuartoBimestre.value
 }
 
 
